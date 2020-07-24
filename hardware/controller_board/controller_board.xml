@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/controller_board/kicad/controller_board.sch</source>
+    <date>Die 06 Sep 2016 14:49:52 CEST</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Controller and pulse sensor board</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2016-09-06</date>
+        <source>controller_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µ</value>
+      <footprint>controller_board:A_3216-18R</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="mouser">77-VJ1206V106ZXQTBC</field>
+      </fields>
+      <libsource lib="controller_board" part="CPOL-EUA_3216-18R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C6FE12</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7µ</value>
+      <footprint>controller_board:A_3216-18R</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="mouser">77-VJ1206V475MXJTBC</field>
+      </fields>
+      <libsource lib="controller_board" part="CPOL-EUA_3216-18R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C6FEDA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>controller_board:C0805</footprint>
+      <fields>
+        <field name="mouser">710-885012207066</field>
+      </fields>
+      <libsource lib="controller_board" part="C-EUC0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C6FFA2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1µ</value>
+      <footprint>controller_board:A_3216-18R</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="mouser">77-VJ1206Y105MXJTBC</field>
+      </fields>
+      <libsource lib="controller_board" part="CPOL-EUA_3216-18R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7006A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>controller_board:C0805</footprint>
+      <fields>
+        <field name="mouser">710-885012207072</field>
+      </fields>
+      <libsource lib="controller_board" part="C-EUC0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70132</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>ESDA6V1L</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/389/esdal-954649.pdf</datasheet>
+      <fields>
+        <field name="mouser">511-ESDA6V1L</field>
+      </fields>
+      <libsource lib="controller_board" part="SMD-DIODE-ESD-3.3V-225MW_SOT-23_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C701FA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>ESDA6V1L</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/389/esdal-954649.pdf</datasheet>
+      <fields>
+        <field name="mouser">511-ESDA6V1L</field>
+      </fields>
+      <libsource lib="controller_board" part="SMD-DIODE-ESD-3.3V-225MW_SOT-23_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C702C2</tstamp>
+    </comp>
+    <comp ref="EXT-ENABLE12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7038A</tstamp>
+    </comp>
+    <comp ref="EXT-GND12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70452</tstamp>
+    </comp>
+    <comp ref="EXT-SCL12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7051A</tstamp>
+    </comp>
+    <comp ref="EXT-SDA12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C705E2</tstamp>
+    </comp>
+    <comp ref="EXT-VCC12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C706AA</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LP2985</value>
+      <footprint>controller_board:TI-LP2985</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/lp2985-33</datasheet>
+      <fields>
+        <field name="mouser">595-LP2985-33DBVR</field>
+      </fields>
+      <libsource lib="controller_board" part="TI-LP2985-18DBVT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70BBE</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>74LVC1G07DBV</value>
+      <footprint>controller_board:SOT23-5</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74lvc1g07</datasheet>
+      <fields>
+        <field name="mouser">595-SN74LVC1G07DBVR</field>
+      </fields>
+      <libsource lib="controller_board" part="74LVC1G07DBV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70C86</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>MAX30102EFD+</value>
+      <footprint>controller_board:MAXIM-MAX30100</footprint>
+      <datasheet>http://www.mouser.com/ds/2/256/maximintegratedproducts_MAX30102%20DS-917698.pdf</datasheet>
+      <fields>
+        <field name="mouser">700-MAX30102EFD+</field>
+      </fields>
+      <libsource lib="controller_board" part="MAXIM-MAX30100"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70DB2</tstamp>
+    </comp>
+    <comp ref="PEBBLE-DATA12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70E7A</tstamp>
+    </comp>
+    <comp ref="PEBBLE-GND1">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C70F42</tstamp>
+    </comp>
+    <comp ref="PEBBLE-GND2">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7100A</tstamp>
+    </comp>
+    <comp ref="PEBBLE-VCC12">
+      <value>~</value>
+      <footprint>controller_board:SMD1_27-2_54</footprint>
+      <libsource lib="controller_board" part="SMD2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C710D2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>controller_board:M0805</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf</datasheet>
+      <fields>
+        <field name="mouser">667-ERJ-6GEYJ472V</field>
+      </fields>
+      <libsource lib="controller_board" part="R-EU_M0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7119A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>controller_board:M0805</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf</datasheet>
+      <fields>
+        <field name="mouser">667-ERJ-6GEYJ472V</field>
+      </fields>
+      <libsource lib="controller_board" part="R-EU_M0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71262</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>controller_board:M0805</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf</datasheet>
+      <fields>
+        <field name="mouser">667-ERJ-6GEYJ472V</field>
+      </fields>
+      <libsource lib="controller_board" part="R-EU_M0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7132A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>controller_board:M0805</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf</datasheet>
+      <fields>
+        <field name="mouser">667-ERJ-6GEYJ472V</field>
+      </fields>
+      <libsource lib="controller_board" part="R-EU_M0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C713F2</tstamp>
+    </comp>
+    <comp ref="SWD-CLK12">
+      <value>TPB1,27</value>
+      <footprint>controller_board:B1_27</footprint>
+      <libsource lib="controller_board" part="TPB1_27"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C714BA</tstamp>
+    </comp>
+    <comp ref="SWD-DIO12">
+      <value>TPB1,27</value>
+      <footprint>controller_board:B1_27</footprint>
+      <libsource lib="controller_board" part="TPB1_27"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71582</tstamp>
+    </comp>
+    <comp ref="SWD-GND12">
+      <value>TPB1,27</value>
+      <footprint>controller_board:B1_27</footprint>
+      <libsource lib="controller_board" part="TPB1_27"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7164A</tstamp>
+    </comp>
+    <comp ref="SWD-RESET12">
+      <value>TPB1,27</value>
+      <footprint>controller_board:B1_27</footprint>
+      <libsource lib="controller_board" part="TPB1_27"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71712</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MKL03Z32VFG4</value>
+      <footprint>controller_board:98ASA00525D</footprint>
+      <datasheet>http://www.mouser.com/ds/2/302/KL03P24M48SF0-782281.pdf</datasheet>
+      <fields>
+        <field name="mouser">841-MKL03Z32VFG4</field>
+      </fields>
+      <libsource lib="controller_board" part="MKL03Z32VFG4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C717DA</tstamp>
+    </comp>
+    <comp ref="VP_0">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C718A2</tstamp>
+    </comp>
+    <comp ref="VP_1">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7196A</tstamp>
+    </comp>
+    <comp ref="VP_2">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71A32</tstamp>
+    </comp>
+    <comp ref="VP_3">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71AFA</tstamp>
+    </comp>
+    <comp ref="VP_4">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71BC2</tstamp>
+    </comp>
+    <comp ref="VP_5">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71C8A</tstamp>
+    </comp>
+    <comp ref="VP_6">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71D52</tstamp>
+    </comp>
+    <comp ref="VP_7">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71E1A</tstamp>
+    </comp>
+    <comp ref="VP_8">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71EE2</tstamp>
+    </comp>
+    <comp ref="VP_9">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C71FAA</tstamp>
+    </comp>
+    <comp ref="VP_10">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C72072</tstamp>
+    </comp>
+    <comp ref="VP_11">
+      <value>VPDEV0</value>
+      <footprint>controller_board:VPAC0</footprint>
+      <libsource lib="controller_board" part="VPDEV0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C7213A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="controller_board" part="741G07DBV">
+      <aliases>
+        <alias>74AHC1G07DBV</alias>
+        <alias>74AUC1G07DBV</alias>
+        <alias>74LVC1G07DBV</alias>
+      </aliases>
+      <footprints>
+        <fp>*SOT23-5*</fp>
+        <fp>*SC70-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">741G07DBV</field>
+        <field name="Footprint">SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="2" name="I" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="O" type="openCol"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="C-EUC0805">
+      <footprints>
+        <fp>*C0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EUC0805</field>
+        <field name="Footprint">C0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="CPOL-EUA_3216-18R">
+      <footprints>
+        <fp>*A_3216-18R*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-EUA_3216-18R</field>
+        <field name="Footprint">A_3216-18R</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="MAXIM-MAX30100">
+      <footprints>
+        <fp>*MAXIM-MAX30100*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">MAXIM-MAX30100</field>
+        <field name="Footprint">MAXIM-MAX30100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC1" type="BiDi"/>
+        <pin num="2" name="SCL" type="BiDi"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="PGND" type="BiDi"/>
+        <pin num="5" name="IR_DRV" type="BiDi"/>
+        <pin num="6" name="R_DRV" type="BiDi"/>
+        <pin num="7" name="NC2" type="BiDi"/>
+        <pin num="8" name="NC3" type="BiDi"/>
+        <pin num="9" name="R_LED+" type="BiDi"/>
+        <pin num="10" name="IR_LED+" type="BiDi"/>
+        <pin num="11" name="VDD" type="BiDi"/>
+        <pin num="12" name="GND" type="BiDi"/>
+        <pin num="13" name="INT" type="BiDi"/>
+        <pin num="14" name="NC4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="MKL03Z32VFG4">
+      <footprints>
+        <fp>*98ASA00525D*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MKL03Z32VFG4</field>
+        <field name="Footprint">98ASA00525D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="PTA3" type="passive"/>
+        <pin num="4" name="PTA4" type="passive"/>
+        <pin num="5" name="PTA5/RTC_CLK_IN" type="passive"/>
+        <pin num="6" name="PTA6" type="passive"/>
+        <pin num="7" name="PTA7/IRQ_4" type="passive"/>
+        <pin num="8" name="PTB0/IRQ_5/LLWU_P4" type="passive"/>
+        <pin num="9" name="PTB1/IRQ_6" type="passive"/>
+        <pin num="10" name="PTB2/IRQ_7" type="passive"/>
+        <pin num="11" name="PTB3/IRQ_10" type="passive"/>
+        <pin num="12" name="PTB4/IRQ_11" type="passive"/>
+        <pin num="13" name="PTB5/IRQ_12" type="passive"/>
+        <pin num="14" name="PTA0/IRQ_0/LLWU_P7" type="passive"/>
+        <pin num="15" name="PTA1/IRQ_1/LPTMR0_ALT1" type="passive"/>
+        <pin num="16" name="PTA2" type="passive"/>
+        <pin num="17" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="R-EU_M0805">
+      <footprints>
+        <fp>*M0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_M0805</field>
+        <field name="Footprint">M0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="SMD-DIODE-ESD-3.3V-225MW_SOT-23_">
+      <footprints>
+        <fp>*SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-DIODE-ESD-3.3V-225MW_SOT-23_</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="SMD2">
+      <footprints>
+        <fp>*SMD1_27-2_54*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PAD</field>
+        <field name="Value">SMD2</field>
+        <field name="Footprint">SMD1_27-2_54</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="TI-LP2985-18DBVT">
+      <footprints>
+        <fp>*TI-LP2985*</fp>
+        <fp>*TI-LP2985*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TI-LP2985-18DBVT</field>
+        <field name="Footprint">TI-LP2985</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON/OFF" type="input"/>
+        <pin num="4" name="BYPASS" type="BiDi"/>
+        <pin num="5" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="TPB1_27">
+      <footprints>
+        <fp>*B1_27*</fp>
+        <fp>*B2_54*</fp>
+        <fp>*P1-13*</fp>
+        <fp>*P1-13Y*</fp>
+        <fp>*P1-17*</fp>
+        <fp>*P1-17Y*</fp>
+        <fp>*P1-20*</fp>
+        <fp>*P1-20Y*</fp>
+        <fp>*TP06R*</fp>
+        <fp>*TP06SQ*</fp>
+        <fp>*TP07R*</fp>
+        <fp>*TP07SQ*</fp>
+        <fp>*TP08R*</fp>
+        <fp>*TP08SQ*</fp>
+        <fp>*TP09R*</fp>
+        <fp>*TP09SQ*</fp>
+        <fp>*TP10R*</fp>
+        <fp>*TP10SQ*</fp>
+        <fp>*TP11R*</fp>
+        <fp>*TP11SQ*</fp>
+        <fp>*TP12R*</fp>
+        <fp>*TP12SQ*</fp>
+        <fp>*TP13R*</fp>
+        <fp>*TP13SQ*</fp>
+        <fp>*TP14R*</fp>
+        <fp>*TP14SQ*</fp>
+        <fp>*TP15R*</fp>
+        <fp>*TP15SQ*</fp>
+        <fp>*TP16R*</fp>
+        <fp>*TP16SQ*</fp>
+        <fp>*TP17R*</fp>
+        <fp>*TP17SQ*</fp>
+        <fp>*TP18R*</fp>
+        <fp>*TP18SQ*</fp>
+        <fp>*TP19R*</fp>
+        <fp>*TP19SQ*</fp>
+        <fp>*TP20R*</fp>
+        <fp>*TP20SQ*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TPB1_27</field>
+        <field name="Footprint">B1_27</field>
+      </fields>
+      <pins>
+        <pin num="TP" name="TP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="controller_board" part="VPDEV0">
+      <footprints>
+        <fp>*VPAC0*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">VP</field>
+        <field name="Value">VPDEV0</field>
+        <field name="Footprint">VPAC0</field>
+      </fields>
+      <pins>
+        <pin num="VP" name="VP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="controller_board">
+      <uri>/controller_board/kicad/controller_board.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SCL">
+      <node ref="IC3" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="EXT-SCL12" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="2" name="/SWD-CLK">
+      <node ref="U1" pin="14"/>
+      <node ref="SWD-CLK12" pin="TP"/>
+    </net>
+    <net code="3" name="/SDA">
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R1" pin="1"/>
+      <node ref="EXT-SDA12" pin="1"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="4" name="/RX">
+      <node ref="IC2" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="PEBBLE-DATA12" pin="1"/>
+    </net>
+    <net code="5" name="/TX">
+      <node ref="IC2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="6" name="/SWD-DIO">
+      <node ref="U1" pin="16"/>
+      <node ref="SWD-DIO12" pin="TP"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="PEBBLE-GND2" pin="1"/>
+      <node ref="PEBBLE-GND1" pin="1"/>
+      <node ref="IC3" pin="12"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="VP_3" pin="VP"/>
+      <node ref="VP_1" pin="VP"/>
+      <node ref="VP_0" pin="VP"/>
+      <node ref="U1" pin="17"/>
+      <node ref="VP_2" pin="VP"/>
+      <node ref="U1" pin="2"/>
+      <node ref="SWD-GND12" pin="TP"/>
+      <node ref="VP_11" pin="VP"/>
+      <node ref="VP_10" pin="VP"/>
+      <node ref="VP_9" pin="VP"/>
+      <node ref="VP_8" pin="VP"/>
+      <node ref="VP_7" pin="VP"/>
+      <node ref="VP_6" pin="VP"/>
+      <node ref="VP_5" pin="VP"/>
+      <node ref="VP_4" pin="VP"/>
+      <node ref="C1" pin="-"/>
+      <node ref="EXT-GND12" pin="1"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="-"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="-"/>
+    </net>
+    <net code="8" name="/RESET">
+      <node ref="SWD-RESET12" pin="TP"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="9" name="/N$3">
+      <node ref="C2" pin="+"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="10" name="/N$1">
+      <node ref="IC1" pin="4"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="11" name="/INT">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="IC3" pin="13"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="16" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="18" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="19" name="Net-(IC3-Pad7)">
+      <node ref="IC3" pin="7"/>
+    </net>
+    <net code="20" name="Net-(IC3-Pad8)">
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="21" name="Net-(IC3-Pad14)">
+      <node ref="IC3" pin="14"/>
+    </net>
+    <net code="22" name="3V3">
+      <node ref="IC2" pin="5"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="EXT-VCC12" pin="1"/>
+      <node ref="PEBBLE-VCC12" pin="1"/>
+      <node ref="C1" pin="+"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC3" pin="10"/>
+      <node ref="C4" pin="+"/>
+    </net>
+    <net code="23" name="/EXT-ENABLE">
+      <node ref="EXT-ENABLE12" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="24" name="/1.8ON">
+      <node ref="U1" pin="9"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+  </nets>
+</export>

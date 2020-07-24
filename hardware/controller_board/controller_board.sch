@@ -1,0 +1,1231 @@
+EESchema Schematic File Version 2
+LIBS:controller_board
+LIBS:controller_board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Controller and pulse sensor board"
+Date "2016-09-06"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2350 5000 0    70   ~ 0
+IC3
+Text Notes 3150 5900 2    70   ~ 0
+MAX30102
+$Comp
+L 3V3 #3V7
+U 1 1 57C6F9C6
+P 7800 1350
+F 0 "#3V7" H 7751 1490 70  0001 L BNN
+F 1 "3V3" H 7751 1490 70  0000 L BNN
+F 2 "" H 7800 1350 60  0001 C CNN
+F 3 "" H 7800 1350 60  0001 C CNN
+	1    7800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V6
+U 1 1 57C6FA2A
+P 5500 1350
+F 0 "#3V6" H 5451 1490 70  0001 L BNN
+F 1 "3V3" H 5451 1490 70  0000 L BNN
+F 2 "" H 5500 1350 60  0001 C CNN
+F 3 "" H 5500 1350 60  0001 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V5
+U 1 1 57C6FA8E
+P 5050 4150
+F 0 "#3V5" H 5001 4290 70  0001 L BNN
+F 1 "3V3" H 5001 4290 70  0000 L BNN
+F 2 "" H 5050 4150 60  0001 C CNN
+F 3 "" H 5050 4150 60  0001 C CNN
+	1    5050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V10
+U 1 1 57C6FAF2
+P 9950 4350
+F 0 "#3V10" H 9901 4490 70  0001 L BNN
+F 1 "3V3" H 9901 4490 70  0000 L BNN
+F 2 "" H 9950 4350 60  0001 C CNN
+F 3 "" H 9950 4350 60  0001 C CNN
+	1    9950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V11
+U 1 1 57C6FB56
+P 10250 4350
+F 0 "#3V11" H 10201 4490 70  0001 L BNN
+F 1 "3V3" H 10201 4490 70  0000 L BNN
+F 2 "" H 10250 4350 60  0001 C CNN
+F 3 "" H 10250 4350 60  0001 C CNN
+	1    10250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V3
+U 1 1 57C6FBBA
+P 3650 5100
+F 0 "#3V3" H 3601 5240 70  0001 L BNN
+F 1 "3V3" H 3601 5240 70  0000 L BNN
+F 2 "" H 3650 5100 60  0001 C CNN
+F 3 "" H 3650 5100 60  0001 C CNN
+	1    3650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V2
+U 1 1 57C6FC1E
+P 1950 3900
+F 0 "#3V2" H 1901 4040 70  0001 L BNN
+F 1 "3V3" H 1901 4040 70  0000 L BNN
+F 2 "" H 1950 3900 60  0001 C CNN
+F 3 "" H 1950 3900 60  0001 C CNN
+	1    1950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V9
+U 1 1 57C6FC82
+P 9650 4350
+F 0 "#3V9" H 9601 4490 70  0001 L BNN
+F 1 "3V3" H 9601 4490 70  0000 L BNN
+F 2 "" H 9650 4350 60  0001 C CNN
+F 3 "" H 9650 4350 60  0001 C CNN
+	1    9650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V8
+U 1 1 57C6FCE6
+P 9350 4350
+F 0 "#3V8" H 9301 4490 70  0001 L BNN
+F 1 "3V3" H 9301 4490 70  0000 L BNN
+F 2 "" H 9350 4350 60  0001 C CNN
+F 3 "" H 9350 4350 60  0001 C CNN
+	1    9350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #3V1
+U 1 1 57C6FD4A
+P 2000 1750
+F 0 "#3V1" H 1951 1890 70  0001 L BNN
+F 1 "3V3" H 1951 1890 70  0000 L BNN
+F 2 "" H 2000 1750 60  0001 C CNN
+F 3 "" H 2000 1750 60  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPOL-EUA_3216-18R C1
+U 1 1 57C6FE12
+P 3650 5800
+F 0 "C1" H 3606 5931 70  0000 R TNN
+F 1 "10µ" H 3650 5600 70  0000 L BNN
+F 2 "controller_board:A_3216-18R" H 3640 5590 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 3650 5800 60  0001 C CNN
+F 4 "77-VJ1206V106ZXQTBC" H 3650 5800 60  0001 C CNN "mouser"
+	1    3650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPOL-EUA_3216-18R C2
+U 1 1 57C6FEDA
+P 3850 4500
+F 0 "C2" H 3800 4600 70  0000 R TNN
+F 1 "4.7µ" H 3900 4300 70  0000 L BNN
+F 2 "controller_board:A_3216-18R" H 3840 4290 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 3850 4500 60  0001 C CNN
+F 4 "77-VJ1206V475MXJTBC" V 3850 4500 60  0001 C CNN "mouser"
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-EUC0805 C3
+U 1 1 57C6FFA2
+P 3450 4500
+F 0 "C3" H 3400 4600 70  0000 R TNN
+F 1 "10n" H 3200 4300 70  0000 L BNN
+F 2 "controller_board:C0805" H 3440 4290 65  0001 L TNN
+F 3 "" H 3450 4500 60  0001 C CNN
+F 4 "710-885012207066" V 3450 4500 60  0001 C CNN "mouser"
+	1    3450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPOL-EUA_3216-18R C4
+U 1 1 57C7006A
+P 1750 4500
+F 0 "C4" H 1706 4631 70  0000 R TNN
+F 1 "1µ" H 1800 4300 70  0000 L BNN
+F 2 "controller_board:A_3216-18R" H 1740 4290 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 1750 4500 60  0001 C CNN
+F 4 "77-VJ1206Y105MXJTBC" H 1750 4500 60  0001 C CNN "mouser"
+	1    1750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-EUC0805 C5
+U 1 1 57C70132
+P 4750 4450
+F 0 "C5" H 4741 4535 70  0000 R TNN
+F 1 "100n" H 4750 4250 70  0000 L BNN
+F 2 "controller_board:C0805" H 4740 4240 65  0001 L TNN
+F 3 "" H 4750 4450 60  0001 C CNN
+F 4 "710-885012207072" H 4750 4450 60  0001 C CNN "mouser"
+	1    4750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMD-DIODE-ESD-3.3V-225MW_SOT-23_ V1
+U 1 1 57C701FA
+P 4700 2750
+F 0 "V1" H 5000 2550 50  0000 L BNN
+F 1 "ESDA6V1L" H 4400 2900 50  0000 R TNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4690 2540 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/389/esdal-954649.pdf" H 4700 2750 60  0001 C CNN
+F 4 "511-ESDA6V1L" H 4700 2750 60  0001 C CNN "mouser"
+	1    4700 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD-DIODE-ESD-3.3V-225MW_SOT-23_ V2
+U 1 1 57C702C2
+P 7300 2750
+F 0 "V2" H 7600 2550 50  0000 L BNN
+F 1 "ESDA6V1L" H 7000 2900 50  0000 R TNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7290 2540 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/389/esdal-954649.pdf" H 7300 2750 60  0001 C CNN
+F 4 "511-ESDA6V1L" H 7300 2750 60  0001 C CNN "mouser"
+	1    7300 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 EXT-ENABLE12
+U 1 1 57C7038A
+P 8100 1750
+F 0 "EXT-ENABLE12" H 8045 1776 70  0000 R TNN
+F 1 "~" H 8056 1620 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 8090 1540 65  0001 L TNN
+F 3 "" H 8100 1750 60  0001 C CNN
+	1    8100 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 EXT-GND12
+U 1 1 57C70452
+P 8100 2350
+F 0 "EXT-GND12" H 8045 2376 70  0000 R TNN
+F 1 "~" H 8056 2220 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 8090 2140 65  0001 L TNN
+F 3 "" H 8100 2350 60  0001 C CNN
+	1    8100 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 EXT-SCL12
+U 1 1 57C7051A
+P 8100 1950
+F 0 "EXT-SCL12" H 8045 1976 70  0000 R TNN
+F 1 "~" H 8056 1820 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 8090 1740 65  0001 L TNN
+F 3 "" H 8100 1950 60  0001 C CNN
+	1    8100 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 EXT-SDA12
+U 1 1 57C705E2
+P 8100 2150
+F 0 "EXT-SDA12" H 8045 2176 70  0000 R TNN
+F 1 "~" H 8056 2020 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 8090 1940 65  0001 L TNN
+F 3 "" H 8100 2150 60  0001 C CNN
+	1    8100 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 EXT-VCC12
+U 1 1 57C706AA
+P 8100 1550
+F 0 "EXT-VCC12" H 8045 1576 70  0000 R TNN
+F 1 "~" H 8056 1420 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 8090 1340 65  0001 L TNN
+F 3 "" H 8100 1550 60  0001 C CNN
+	1    8100 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #GND9
+U 1 1 57C7070E
+P 7800 2550
+F 0 "#GND9" H 7690 2350 70  0001 L BNN
+F 1 "GND" H 7690 2350 70  0000 L BNN
+F 2 "" H 7800 2550 60  0001 C CNN
+F 3 "" H 7800 2550 60  0001 C CNN
+	1    7800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND7
+U 1 1 57C70772
+P 5300 2350
+F 0 "#GND7" H 5190 2150 70  0001 L BNN
+F 1 "GND" H 5190 2150 70  0000 L BNN
+F 2 "" H 5300 2350 60  0001 C CNN
+F 3 "" H 5300 2350 60  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND5
+U 1 1 57C707D6
+P 4700 3200
+F 0 "#GND5" H 4590 3000 70  0001 L BNN
+F 1 "GND" H 4590 3000 70  0000 L BNN
+F 2 "" H 4700 3200 60  0001 C CNN
+F 3 "" H 4700 3200 60  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND8
+U 1 1 57C7083A
+P 7300 3200
+F 0 "#GND8" H 7190 3000 70  0001 L BNN
+F 1 "GND" H 7190 3000 70  0000 L BNN
+F 2 "" H 7300 3200 60  0001 C CNN
+F 3 "" H 7300 3200 60  0001 C CNN
+	1    7300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND6
+U 1 1 57C7089E
+P 5050 4850
+F 0 "#GND6" H 4940 4650 70  0001 L BNN
+F 1 "GND" H 4940 4650 70  0000 L BNN
+F 2 "" H 5050 4850 60  0001 C CNN
+F 3 "" H 5050 4850 60  0001 C CNN
+	1    5050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND4
+U 1 1 57C70902
+P 3850 6200
+F 0 "#GND4" H 3740 6000 70  0001 L BNN
+F 1 "GND" H 3740 6000 70  0000 L BNN
+F 2 "" H 3850 6200 60  0001 C CNN
+F 3 "" H 3850 6200 60  0001 C CNN
+	1    3850 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND2
+U 1 1 57C70966
+P 1950 6200
+F 0 "#GND2" H 1840 6000 70  0001 L BNN
+F 1 "GND" H 1840 6000 70  0000 L BNN
+F 2 "" H 1950 6200 60  0001 C CNN
+F 3 "" H 1950 6200 60  0001 C CNN
+	1    1950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND3
+U 1 1 57C709CA
+P 3450 4800
+F 0 "#GND3" H 3340 4600 70  0001 L BNN
+F 1 "GND" H 3340 4600 70  0000 L BNN
+F 2 "" H 3450 4800 60  0001 C CNN
+F 3 "" H 3450 4800 60  0001 C CNN
+	1    3450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND11
+U 1 1 57C70A2E
+P 9700 2450
+F 0 "#GND11" H 9590 2250 70  0001 L BNN
+F 1 "GND" H 9590 2250 70  0000 L BNN
+F 2 "" H 9700 2450 60  0001 C CNN
+F 3 "" H 9700 2450 60  0001 C CNN
+	1    9700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND10
+U 1 1 57C70A92
+P 9150 5600
+F 0 "#GND10" H 9040 5400 70  0001 L BNN
+F 1 "GND" H 9040 5400 70  0000 L BNN
+F 2 "" H 9150 5600 60  0001 C CNN
+F 3 "" H 9150 5600 60  0001 C CNN
+	1    9150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND1
+U 1 1 57C70AF6
+P 2000 2350
+F 0 "#GND1" H 1890 2150 70  0001 L BNN
+F 1 "GND" H 1890 2150 70  0000 L BNN
+F 2 "" H 2000 2350 60  0001 C CNN
+F 3 "" H 2000 2350 60  0001 C CNN
+	1    2000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TI-LP2985-18DBVT IC1
+U 1 1 57C70BBE
+P 2750 4200
+F 0 "IC1" H 2350 4550 70  0000 L BNN
+F 1 "LP2985" H 2740 4090 65  0001 L TNN
+F 2 "controller_board:TI-LP2985" H 2740 3990 65  0001 L TNN
+F 3 "http://www.ti.com/lit/gpn/lp2985-33" H 2750 4200 60  0001 C CNN
+F 4 "595-LP2985-33DBVR" H 2750 4200 60  0001 C CNN "mouser"
+	1    2750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC1G07DBV IC2
+U 1 1 57C70C86
+P 3400 1950
+F 0 "IC2" H 3250 2175 70  0000 R TNN
+F 1 "74LVC1G07DBV" H 3499 1750 70  0000 L BNN
+F 2 "controller_board:SOT23-5" H 3390 1740 65  0001 L TNN
+F 3 "http://www.ti.com/lit/gpn/sn74lvc1g07" H 3400 1950 60  0001 C CNN
+F 4 "595-SN74LVC1G07DBVR" H 3400 1950 60  0001 C CNN "mouser"
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LVC1G07DBV IC2
+U 2 1 57C70CEA
+P 2000 2050
+F 0 "IC2" H 1900 2000 70  0000 L BNN
+F 1 "74LVC1G07DBV" H 1990 1940 65  0001 L TNN
+F 2 "controller_board:SOT23-5" H 1990 1840 65  0001 L TNN
+F 3 "http://www.ti.com/lit/gpn/sn74lvc1g07" H 2000 2050 60  0001 C CNN
+F 4 "595-SN74LVC1G07DBVR" H 2000 2050 60  0001 C CNN "mouser"
+	2    2000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAXIM-MAX30100 IC3
+U 1 1 57C70DB2
+P 2750 5400
+F 0 "IC3" H 2740 5390 65  0001 L TNN
+F 1 "MAX30102EFD+" H 2740 5290 65  0001 L TNN
+F 2 "controller_board:MAXIM-MAX30100" H 2740 5190 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/256/maximintegratedproducts_MAX30102%20DS-917698.pdf" H 2750 5400 60  0001 C CNN
+F 4 "700-MAX30102EFD+" H 2750 5400 60  0001 C CNN "mouser"
+	1    2750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMD2 PEBBLE-DATA12
+U 1 1 57C70E7A
+P 5800 1950
+F 0 "PEBBLE-DATA12" H 5745 1976 70  0000 R TNN
+F 1 "~" H 5756 1820 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 5790 1740 65  0001 L TNN
+F 3 "" H 5800 1950 60  0001 C CNN
+	1    5800 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 PEBBLE-GND1
+U 1 1 57C70F42
+P 5800 1550
+F 0 "PEBBLE-GND1" H 5745 1576 70  0000 R TNN
+F 1 "~" H 5756 1420 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 5790 1340 65  0001 L TNN
+F 3 "" H 5800 1550 60  0001 C CNN
+	1    5800 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 PEBBLE-GND2
+U 1 1 57C7100A
+P 5800 2150
+F 0 "PEBBLE-GND2" H 5745 2176 70  0000 R TNN
+F 1 "~" H 5756 2020 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 5790 1940 65  0001 L TNN
+F 3 "" H 5800 2150 60  0001 C CNN
+	1    5800 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SMD2 PEBBLE-VCC12
+U 1 1 57C710D2
+P 5800 1750
+F 0 "PEBBLE-VCC12" H 5745 1776 70  0000 R TNN
+F 1 "~" H 5756 1620 70  0000 L BNN
+F 2 "controller_board:SMD1_27-2_54" H 5790 1540 65  0001 L TNN
+F 3 "" H 5800 1750 60  0001 C CNN
+	1    5800 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R-EU_M0805 R1
+U 1 1 57C7119A
+P 10250 4650
+F 0 "R1" V 10400 4700 70  0000 L BNN
+F 1 "4k7" V 10100 4450 70  0000 L BNN
+F 2 "controller_board:M0805" H 10240 4440 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf" H 10250 4650 60  0001 C CNN
+F 4 "667-ERJ-6GEYJ472V" H 10250 4650 60  0001 C CNN "mouser"
+	1    10250 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-EU_M0805 R2
+U 1 1 57C71262
+P 9950 4650
+F 0 "R2" V 10100 4700 70  0000 L BNN
+F 1 "4k7" V 9800 4450 70  0000 L BNN
+F 2 "controller_board:M0805" H 9940 4440 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf" H 9950 4650 60  0001 C CNN
+F 4 "667-ERJ-6GEYJ472V" H 9950 4650 60  0001 C CNN "mouser"
+	1    9950 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-EU_M0805 R3
+U 1 1 57C7132A
+P 9650 4650
+F 0 "R3" V 9800 4700 70  0000 L BNN
+F 1 "4k7" V 9500 4450 70  0000 L BNN
+F 2 "controller_board:M0805" H 9640 4440 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf" H 9650 4650 60  0001 C CNN
+F 4 "667-ERJ-6GEYJ472V" H 9650 4650 60  0001 C CNN "mouser"
+	1    9650 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-EU_M0805 R4
+U 1 1 57C713F2
+P 9350 4650
+F 0 "R4" V 9500 4700 70  0000 L BNN
+F 1 "4k7" V 9200 4450 70  0000 L BNN
+F 2 "controller_board:M0805" H 9340 4440 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf" H 9350 4650 60  0001 C CNN
+F 4 "667-ERJ-6GEYJ472V" H 9350 4650 60  0001 C CNN "mouser"
+	1    9350 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TPB1_27 SWD-CLK12
+U 1 1 57C714BA
+P 9900 2150
+F 0 "SWD-CLK12" V 9949 2200 70  0000 L BNN
+F 1 "TPB1,27" H 9890 2040 65  0001 L TNN
+F 2 "controller_board:B1_27" H 9890 1940 65  0001 L TNN
+F 3 "" H 9900 2150 60  0001 C CNN
+	1    9900 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L TPB1_27 SWD-DIO12
+U 1 1 57C71582
+P 9900 1750
+F 0 "SWD-DIO12" V 9949 1800 70  0000 L BNN
+F 1 "TPB1,27" H 9890 1640 65  0001 L TNN
+F 2 "controller_board:B1_27" H 9890 1540 65  0001 L TNN
+F 3 "" H 9900 1750 60  0001 C CNN
+	1    9900 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L TPB1_27 SWD-GND12
+U 1 1 57C7164A
+P 9900 2350
+F 0 "SWD-GND12" V 9949 2400 70  0000 L BNN
+F 1 "TPB1,27" H 9890 2240 65  0001 L TNN
+F 2 "controller_board:B1_27" H 9890 2140 65  0001 L TNN
+F 3 "" H 9900 2350 60  0001 C CNN
+	1    9900 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L TPB1_27 SWD-RESET12
+U 1 1 57C71712
+P 9900 1950
+F 0 "SWD-RESET12" V 9949 2000 70  0000 L BNN
+F 1 "TPB1,27" H 9890 1840 65  0001 L TNN
+F 2 "controller_board:B1_27" H 9890 1740 65  0001 L TNN
+F 3 "" H 9900 1950 60  0001 C CNN
+	1    9900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L MKL03Z32VFG4 U1
+U 1 1 57C717DA
+P 5650 4450
+F 0 "U1" H 5950 4700 82  0000 L BNN
+F 1 "MKL03Z32VFG4" H 8150 3400 82  0000 R TNN
+F 2 "controller_board:98ASA00525D" H 5640 4240 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/302/KL03P24M48SF0-782281.pdf" H 5650 4450 60  0001 C CNN
+F 4 "841-MKL03Z32VFG4" H 5650 4450 60  0001 C CNN "mouser"
+	1    5650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_0
+U 1 1 57C718A2
+P 665 6567
+F 0 "VP_0" H 655 6557 65  0001 L TNN
+F 1 "VPDEV0" H 655 6457 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6357 65  0001 L TNN
+F 3 "" H 665 6567 60  0001 C CNN
+	1    665  6567
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_1
+U 1 1 57C7196A
+P 665 6667
+F 0 "VP_1" H 655 6657 65  0001 L TNN
+F 1 "VPDEV0" H 655 6557 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6457 65  0001 L TNN
+F 3 "" H 665 6667 60  0001 C CNN
+	1    665  6667
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_2
+U 1 1 57C71A32
+P 665 6767
+F 0 "VP_2" H 655 6757 65  0001 L TNN
+F 1 "VPDEV0" H 655 6657 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6557 65  0001 L TNN
+F 3 "" H 665 6767 60  0001 C CNN
+	1    665  6767
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_3
+U 1 1 57C71AFA
+P 665 6867
+F 0 "VP_3" H 655 6857 65  0001 L TNN
+F 1 "VPDEV0" H 655 6757 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6657 65  0001 L TNN
+F 3 "" H 665 6867 60  0001 C CNN
+	1    665  6867
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_4
+U 1 1 57C71BC2
+P 665 6967
+F 0 "VP_4" H 655 6957 65  0001 L TNN
+F 1 "VPDEV0" H 655 6857 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6757 65  0001 L TNN
+F 3 "" H 665 6967 60  0001 C CNN
+	1    665  6967
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_5
+U 1 1 57C71C8A
+P 665 7067
+F 0 "VP_5" H 655 7057 65  0001 L TNN
+F 1 "VPDEV0" H 655 6957 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6857 65  0001 L TNN
+F 3 "" H 665 7067 60  0001 C CNN
+	1    665  7067
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_6
+U 1 1 57C71D52
+P 665 7167
+F 0 "VP_6" H 655 7157 65  0001 L TNN
+F 1 "VPDEV0" H 655 7057 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 6957 65  0001 L TNN
+F 3 "" H 665 7167 60  0001 C CNN
+	1    665  7167
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_7
+U 1 1 57C71E1A
+P 665 7267
+F 0 "VP_7" H 655 7257 65  0001 L TNN
+F 1 "VPDEV0" H 655 7157 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 7057 65  0001 L TNN
+F 3 "" H 665 7267 60  0001 C CNN
+	1    665  7267
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_8
+U 1 1 57C71EE2
+P 665 7367
+F 0 "VP_8" H 655 7357 65  0001 L TNN
+F 1 "VPDEV0" H 655 7257 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 7157 65  0001 L TNN
+F 3 "" H 665 7367 60  0001 C CNN
+	1    665  7367
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_9
+U 1 1 57C71FAA
+P 665 7467
+F 0 "VP_9" H 655 7457 65  0001 L TNN
+F 1 "VPDEV0" H 655 7357 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 7257 65  0001 L TNN
+F 3 "" H 665 7467 60  0001 C CNN
+	1    665  7467
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_10
+U 1 1 57C72072
+P 665 7567
+F 0 "VP_10" H 655 7557 65  0001 L TNN
+F 1 "VPDEV0" H 655 7457 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 7357 65  0001 L TNN
+F 3 "" H 665 7567 60  0001 C CNN
+	1    665  7567
+	1    0    0    -1  
+$EndComp
+$Comp
+L VPDEV0 VP_11
+U 1 1 57C7213A
+P 665 7667
+F 0 "VP_11" H 655 7657 65  0001 L TNN
+F 1 "VPDEV0" H 655 7557 65  0001 L TNN
+F 2 "controller_board:VPAC0" H 655 7457 65  0001 L TNN
+F 3 "" H 665 7667 60  0001 C CNN
+	1    665  7667
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4200 1050 4200
+Text Label 1050 4200 0    65   ~ 0
+1.8ON
+Wire Wire Line
+	8450 5250 10550 5250
+Wire Wire Line
+	9350 4850 9350 5250
+Connection ~ 9350 5250
+Text Label 10550 5250 2    65   ~ 0
+1.8ON
+Wire Wire Line
+	7800 1550 8000 1550
+Wire Wire Line
+	7800 1350 7800 1550
+Wire Wire Line
+	5500 1350 5500 1750
+Wire Wire Line
+	4550 1750 5700 1750
+Wire Wire Line
+	4550 1750 4550 2350
+Connection ~ 5500 1750
+Wire Wire Line
+	5050 4450 5650 4450
+Wire Wire Line
+	5050 4150 5050 4450
+Wire Wire Line
+	4750 4350 4750 4250
+Wire Wire Line
+	4750 4250 5050 4250
+Connection ~ 5050 4250
+Wire Wire Line
+	9950 4350 9950 4450
+Wire Wire Line
+	10250 4350 10250 4450
+Wire Wire Line
+	3650 5100 3650 5700
+Wire Wire Line
+	3350 5500 3650 5500
+Wire Wire Line
+	3350 5600 3650 5600
+Connection ~ 3650 5500
+Connection ~ 3650 5600
+Wire Wire Line
+	1950 3900 1950 4100
+Wire Wire Line
+	1750 4100 2150 4100
+Wire Wire Line
+	1750 4100 1750 4400
+Connection ~ 1950 4100
+Wire Wire Line
+	9650 4350 9650 4450
+Wire Wire Line
+	9350 4350 9350 4450
+Wire Wire Line
+	8000 1750 6900 1750
+Text Label 6900 1750 0    65   ~ 0
+EXT-ENABLE
+Wire Wire Line
+	8450 4850 8950 4850
+Text Label 8950 4850 2    65   ~ 0
+EXT-ENABLE
+Wire Wire Line
+	7800 2350 8000 2350
+Wire Wire Line
+	7800 2550 7800 2350
+Wire Wire Line
+	5300 1550 5300 2350
+Wire Wire Line
+	5300 1550 5700 1550
+Wire Wire Line
+	5700 2150 5300 2150
+Connection ~ 5300 2150
+Wire Wire Line
+	4700 3200 4700 3100
+Wire Wire Line
+	7300 3200 7300 3100
+Wire Wire Line
+	5650 4550 5050 4550
+Wire Wire Line
+	5050 4550 5050 4850
+Wire Wire Line
+	4750 4650 4750 4750
+Wire Wire Line
+	4750 4750 5050 4750
+Connection ~ 5050 4750
+Wire Wire Line
+	3350 5300 3850 5300
+Wire Wire Line
+	3850 4700 3850 6200
+Wire Wire Line
+	3650 6000 3650 6100
+Wire Wire Line
+	3650 6100 3850 6100
+Connection ~ 3850 5300
+Connection ~ 3850 6100
+Wire Wire Line
+	1950 5400 2150 5400
+Wire Wire Line
+	1950 4400 1950 6200
+Wire Wire Line
+	2150 4400 1950 4400
+Wire Wire Line
+	1750 4700 1750 4900
+Wire Wire Line
+	1750 4900 1950 4900
+Connection ~ 1950 5400
+Connection ~ 1950 4900
+Wire Wire Line
+	3450 4700 3450 4800
+Wire Wire Line
+	9700 2450 9700 2350
+Wire Wire Line
+	9700 2350 9800 2350
+Wire Wire Line
+	8450 4450 9150 4450
+Wire Wire Line
+	9150 4450 9150 5600
+Wire Wire Line
+	665  6567 565  6567
+Text Label 565  6567 0    65   ~ 0
+GND
+Wire Wire Line
+	665  6667 565  6667
+Text Label 565  6667 0    65   ~ 0
+GND
+Wire Wire Line
+	665  6767 565  6767
+Text Label 565  6767 0    65   ~ 0
+GND
+Wire Wire Line
+	665  6867 565  6867
+Text Label 565  6867 0    65   ~ 0
+GND
+Wire Wire Line
+	665  6967 565  6967
+Text Label 565  6967 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7067 565  7067
+Text Label 565  7067 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7167 565  7167
+Text Label 565  7167 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7267 565  7267
+Text Label 565  7267 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7367 565  7367
+Text Label 565  7367 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7467 565  7467
+Text Label 565  7467 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7567 565  7567
+Text Label 565  7567 0    65   ~ 0
+GND
+Wire Wire Line
+	665  7667 565  7667
+Text Label 565  7667 0    65   ~ 0
+GND
+Wire Wire Line
+	8450 5150 10550 5150
+Wire Wire Line
+	9650 4850 9650 5150
+Connection ~ 9650 5150
+Text Label 10550 5150 2    65   ~ 0
+INT
+Wire Wire Line
+	3350 5200 4350 5200
+Text Label 4350 5200 2    65   ~ 0
+INT
+Wire Wire Line
+	3450 4400 3450 4300
+Wire Wire Line
+	3450 4300 3350 4300
+Wire Wire Line
+	3350 4100 3850 4100
+Wire Wire Line
+	3550 4100 3550 5400
+Wire Wire Line
+	3550 5400 3350 5400
+Wire Wire Line
+	3850 4100 3850 4400
+Connection ~ 3550 4100
+Wire Wire Line
+	8450 4650 8950 4650
+Text Label 8950 4650 2    65   ~ 0
+RESET
+Wire Wire Line
+	9800 1950 9200 1950
+Text Label 9200 1950 0    65   ~ 0
+RESET
+Wire Wire Line
+	5650 4750 5250 4750
+Text Label 5250 4750 0    65   ~ 0
+RX
+Wire Wire Line
+	3800 1950 5700 1950
+Wire Wire Line
+	4300 1850 4300 2250
+Wire Wire Line
+	4300 2250 2800 2250
+Wire Wire Line
+	4850 2350 4850 1950
+Connection ~ 4300 1950
+Connection ~ 4850 1950
+Text Label 2800 2250 0    65   ~ 0
+RX
+Wire Wire Line
+	6900 1950 8000 1950
+Wire Wire Line
+	7450 2350 7450 1950
+Connection ~ 7450 1950
+Text Label 6900 1950 0    65   ~ 0
+SCL
+Wire Wire Line
+	8450 5050 10550 5050
+Wire Wire Line
+	9950 4850 9950 5050
+Connection ~ 9950 5050
+Text Label 10550 5050 2    65   ~ 0
+SCL
+Wire Wire Line
+	2150 5200 1550 5200
+Text Label 1550 5200 0    65   ~ 0
+SCL
+Wire Wire Line
+	6900 2150 8000 2150
+Wire Wire Line
+	7150 2350 7150 2150
+Connection ~ 7150 2150
+Text Label 6900 2150 0    65   ~ 0
+SDA
+Wire Wire Line
+	8450 4950 10550 4950
+Wire Wire Line
+	10250 4850 10250 4950
+Connection ~ 10250 4950
+Text Label 10550 4950 2    65   ~ 0
+SDA
+Wire Wire Line
+	2150 5300 1550 5300
+Text Label 1550 5300 0    65   ~ 0
+SDA
+Wire Wire Line
+	8450 4750 8950 4750
+Text Label 8950 4750 2    65   ~ 0
+SWD-CLK
+Wire Wire Line
+	9800 2150 9200 2150
+Text Label 9200 2150 0    65   ~ 0
+SWD-CLK
+Wire Wire Line
+	8450 4550 8950 4550
+Text Label 8950 4550 2    65   ~ 0
+SWD-DIO
+Wire Wire Line
+	9800 1750 9200 1750
+Text Label 9200 1750 0    65   ~ 0
+SWD-DIO
+Wire Wire Line
+	5650 4650 5250 4650
+Text Label 5250 4650 0    65   ~ 0
+TX
+Wire Wire Line
+	3200 1950 2800 1950
+Text Label 2800 1950 0    65   ~ 0
+TX
+Text Label 2150 4200 2    10   ~ 0
+1.8ON
+Text Label 8450 5250 0    10   ~ 0
+1.8ON
+Text Label 9350 4850 3    10   ~ 0
+1.8ON
+Text Label 8000 1550 2    10   ~ 0
+3V3
+Text Label 7800 1350 3    10   ~ 0
+3V3
+Text Label 5500 1350 3    10   ~ 0
+3V3
+Text Label 5700 1750 2    10   ~ 0
+3V3
+Text Label 4550 2350 1    10   ~ 0
+3V3
+Text Label 5650 4450 2    10   ~ 0
+3V3
+Text Label 5050 4150 3    10   ~ 0
+3V3
+Text Label 4750 4350 1    10   ~ 0
+3V3
+Text Label 9950 4450 1    10   ~ 0
+3V3
+Text Label 9950 4350 3    10   ~ 0
+3V3
+Text Label 10250 4450 1    10   ~ 0
+3V3
+Text Label 10250 4350 3    10   ~ 0
+3V3
+Text Label 3650 5100 3    10   ~ 0
+3V3
+Text Label 3350 5500 0    10   ~ 0
+3V3
+Text Label 3650 5700 1    10   ~ 0
+3V3
+Text Label 3350 5600 0    10   ~ 0
+3V3
+Text Label 1950 3900 3    10   ~ 0
+3V3
+Text Label 2150 4100 2    10   ~ 0
+3V3
+Text Label 1750 4400 1    10   ~ 0
+3V3
+Text Label 9650 4350 3    10   ~ 0
+3V3
+Text Label 9650 4450 1    10   ~ 0
+3V3
+Text Label 9350 4350 3    10   ~ 0
+3V3
+Text Label 9350 4450 1    10   ~ 0
+3V3
+Text Label 2000 1750 1    10   ~ 0
+3V3
+Text Label 2000 1750 3    10   ~ 0
+3V3
+Text Label 8000 1750 2    10   ~ 0
+EXT-ENABLE
+Text Label 8450 4850 0    10   ~ 0
+EXT-ENABLE
+Text GLabel 8000 2350 0    10   UnSpc ~ 0
+GND
+Text GLabel 7800 2550 1    10   UnSpc ~ 0
+GND
+Text GLabel 5300 2350 1    10   UnSpc ~ 0
+GND
+Text GLabel 5700 1550 0    10   UnSpc ~ 0
+GND
+Text GLabel 5700 2150 0    10   UnSpc ~ 0
+GND
+Text GLabel 4700 3100 3    10   UnSpc ~ 0
+GND
+Text GLabel 4700 3200 1    10   UnSpc ~ 0
+GND
+Text GLabel 7300 3100 3    10   UnSpc ~ 0
+GND
+Text GLabel 7300 3200 1    10   UnSpc ~ 0
+GND
+Text GLabel 5650 4550 0    10   UnSpc ~ 0
+GND
+Text GLabel 5050 4850 1    10   UnSpc ~ 0
+GND
+Text GLabel 4750 4650 3    10   UnSpc ~ 0
+GND
+Text GLabel 3350 5300 2    10   UnSpc ~ 0
+GND
+Text GLabel 3850 6200 1    10   UnSpc ~ 0
+GND
+Text GLabel 3650 6000 3    10   UnSpc ~ 0
+GND
+Text GLabel 3850 4700 3    10   UnSpc ~ 0
+GND
+Text GLabel 2150 5400 0    10   UnSpc ~ 0
+GND
+Text GLabel 1950 6200 1    10   UnSpc ~ 0
+GND
+Text GLabel 2150 4400 0    10   UnSpc ~ 0
+GND
+Text GLabel 1750 4700 3    10   UnSpc ~ 0
+GND
+Text GLabel 3450 4700 3    10   UnSpc ~ 0
+GND
+Text GLabel 3450 4800 1    10   UnSpc ~ 0
+GND
+Text GLabel 9700 2450 1    10   UnSpc ~ 0
+GND
+Text GLabel 9800 2350 0    10   UnSpc ~ 0
+GND
+Text GLabel 8450 4450 2    10   UnSpc ~ 0
+GND
+Text GLabel 9150 5600 1    10   UnSpc ~ 0
+GND
+Text GLabel 2000 2350 3    10   UnSpc ~ 0
+GND
+Text GLabel 2000 2350 1    10   UnSpc ~ 0
+GND
+Text GLabel 665  6567 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  6667 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  6767 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  6867 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  6967 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7067 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7167 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7267 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7367 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7467 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7567 0    10   UnSpc ~ 0
+GND
+Text GLabel 665  7667 0    10   UnSpc ~ 0
+GND
+Text Label 8450 5150 0    10   ~ 0
+INT
+Text Label 9650 4850 3    10   ~ 0
+INT
+Text Label 3350 5200 0    10   ~ 0
+INT
+Text Label 3450 4400 1    10   ~ 0
+N$1
+Text Label 3350 4300 0    10   ~ 0
+N$1
+Text Label 3350 4100 0    10   ~ 0
+N$3
+Text Label 3350 5400 0    10   ~ 0
+N$3
+Text Label 3850 4400 1    10   ~ 0
+N$3
+Text Label 8450 4650 0    10   ~ 0
+RESET
+Text Label 9800 1950 2    10   ~ 0
+RESET
+Text Label 5650 4750 2    10   ~ 0
+RX
+Text Label 5700 1950 2    10   ~ 0
+RX
+Text Label 3800 1950 0    10   ~ 0
+RX
+Text Label 4850 2350 1    10   ~ 0
+RX
+Text Label 8000 1950 2    10   ~ 0
+SCL
+Text Label 7450 2350 1    10   ~ 0
+SCL
+Text Label 8450 5050 0    10   ~ 0
+SCL
+Text Label 9950 4850 3    10   ~ 0
+SCL
+Text Label 2150 5200 2    10   ~ 0
+SCL
+Text Label 8000 2150 2    10   ~ 0
+SDA
+Text Label 7150 2350 1    10   ~ 0
+SDA
+Text Label 8450 4950 0    10   ~ 0
+SDA
+Text Label 10250 4850 3    10   ~ 0
+SDA
+Text Label 2150 5300 2    10   ~ 0
+SDA
+Text Label 8450 4750 0    10   ~ 0
+SWD-CLK
+Text Label 9800 2150 2    10   ~ 0
+SWD-CLK
+Text Label 8450 4550 0    10   ~ 0
+SWD-DIO
+Text Label 9800 1750 2    10   ~ 0
+SWD-DIO
+Text Label 5650 4650 2    10   ~ 0
+TX
+Text Label 3200 1950 2    10   ~ 0
+TX
+NoConn ~ 3350 5100
+NoConn ~ 3350 5700
+NoConn ~ 2150 5700
+NoConn ~ 2150 5600
+NoConn ~ 2150 5500
+NoConn ~ 2150 5100
+NoConn ~ 5650 4850
+NoConn ~ 5650 4950
+NoConn ~ 5650 5050
+NoConn ~ 5650 5150
+$Comp
+L R-EU_M0805 R5
+U 1 1 57F97ECA
+P 4300 1650
+F 0 "R5" V 4450 1700 70  0000 L BNN
+F 1 "10k" V 4200 1400 70  0000 L BNN
+F 2 "controller_board:M0805" H 4290 1440 65  0001 L TNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C84-947596.pdf" H 4300 1650 60  0001 C CNN
+F 4 "667-ERJ-6ENF1003V" H 4300 1650 60  0001 C CNN "mouser"
+	1    4300 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 3V3 #3V4
+U 1 1 57F980A8
+P 4300 1350
+F 0 "#3V4" H 4251 1490 70  0001 L BNN
+F 1 "3V3" H 4251 1490 70  0000 L BNN
+F 2 "" H 4300 1350 60  0001 C CNN
+F 3 "" H 4300 1350 60  0001 C CNN
+	1    4300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1450 4300 1350
+Text Notes 7100 7000 0    315  ~ 63
+Controller Board
+$EndSCHEMATC

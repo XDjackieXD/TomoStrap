@@ -1,0 +1,283 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /57C6FDAE;
+Reference = C1;
+ValeurCmp = CPOL-EUA/3216-18R;
+IdModule  = A_3216-18R;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C6FE76;
+Reference = C2;
+ValeurCmp = CPOL-EUA/3216-18R;
+IdModule  = A_3216-18R;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C6FF3E;
+Reference = C3;
+ValeurCmp = C-EUC0805;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70006;
+Reference = C4;
+ValeurCmp = CPOL-EUA/3216-18R;
+IdModule  = A_3216-18R;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C700CE;
+Reference = C5;
+ValeurCmp = C-EUC0805;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70196;
+Reference = D1;
+ValeurCmp = SMD-DIODE-ESD-3.3V-225MW(SOT-23);
+IdModule  = SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7025E;
+Reference = D2;
+ValeurCmp = SMD-DIODE-ESD-3.3V-225MW(SOT-23);
+IdModule  = SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70326;
+Reference = EXT-ENABLE12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C703EE;
+Reference = EXT-GND12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C704B6;
+Reference = EXT-SCL12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7057E;
+Reference = EXT-SDA12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70646;
+Reference = EXT-VCC12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70B5A;
+Reference = IC1;
+ValeurCmp = TI-LP2985-18DBVT;
+IdModule  = TI-LP2985;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70C22;
+Reference = IC2;
+ValeurCmp = 74LVC1G07DBV;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70D4E;
+Reference = IC3;
+ValeurCmp = MAXIM-MAX30100;
+IdModule  = MAXIM-MAX30100;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70E16;
+Reference = PEBBLE-DATA12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70EDE;
+Reference = PEBBLE-GND1;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C70FA6;
+Reference = PEBBLE-GND2;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7106E;
+Reference = PEBBLE-VCC12;
+ValeurCmp = SMD2;
+IdModule  = SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71136;
+Reference = R1;
+ValeurCmp = R-EU_M0805;
+IdModule  = M0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C711FE;
+Reference = R2;
+ValeurCmp = R-EU_M0805;
+IdModule  = M0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C712C6;
+Reference = R3;
+ValeurCmp = R-EU_M0805;
+IdModule  = M0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7138E;
+Reference = R4;
+ValeurCmp = R-EU_M0805;
+IdModule  = M0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71456;
+Reference = SWD-CLK12;
+ValeurCmp = TPB1_27;
+IdModule  = B1_27;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7151E;
+Reference = SWD-DIO12;
+ValeurCmp = TPB1_27;
+IdModule  = B1_27;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C715E6;
+Reference = SWD-GND12;
+ValeurCmp = TPB1_27;
+IdModule  = B1_27;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C716AE;
+Reference = SWD-RESET12;
+ValeurCmp = TPB1_27;
+IdModule  = B1_27;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71776;
+Reference = U1;
+ValeurCmp = MKL03Z32VFG4;
+IdModule  = 98ASA00525D;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7183E;
+Reference = VP_0;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71906;
+Reference = VP_1;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C719CE;
+Reference = VP_2;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71A96;
+Reference = VP_3;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71B5E;
+Reference = VP_4;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71C26;
+Reference = VP_5;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71CEE;
+Reference = VP_6;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71DB6;
+Reference = VP_7;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71E7E;
+Reference = VP_8;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C71F46;
+Reference = VP_9;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C7200E;
+Reference = VP_10;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+BeginCmp
+TimeStamp = /57C720D6;
+Reference = VP_11;
+ValeurCmp = VPDEV0;
+IdModule  = VPAC0;
+EndCmp
+
+EndListe
